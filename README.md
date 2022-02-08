@@ -20,3 +20,6 @@ this project will give you details on longest path followed by both train in bet
 
 ### feat
 add a button for login
+
+### docs
+add installation gudielines
