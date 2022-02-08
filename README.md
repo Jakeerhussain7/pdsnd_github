@@ -157,6 +157,7 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+    print('-'*50)
 
 
 def user_stats(df,city):
@@ -189,7 +190,7 @@ def display_data(df):
         print("Invalid data , Please type yes or no")
         user_input=input("would you like to view 5 rows of individual trip data?, Please type yes or no ").lower()
     elif user_input != 'yes':
-        print('Thank you customer')
+        print('Thank you customers')
     else:
         start_loc=0
         while start_loc+5< df.shape[0]:
@@ -197,7 +198,7 @@ def display_data(df):
             start_loc+=5
             user_input=input("would you like to view 5 rows of individual trip data?, Please type yes or no ").lower()
             if user_input != 'yes':
-                print("thank you customers")
+                print("thank you customer")
                 break
     
 
@@ -218,4 +219,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()S
+	main()
