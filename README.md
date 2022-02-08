@@ -23,3 +23,6 @@ add a button for login
 
 ### docs
 add installation gudielines
+
+### refactor
+modified [ABC] in get get time_period()
